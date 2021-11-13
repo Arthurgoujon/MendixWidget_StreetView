@@ -6,12 +6,12 @@ const googleMapsApiKey = 'AIzaSyD4BXZerACfMj8nKD9x3gOq5cibevb_4PU';
 export class View extends Component {
     render() {
 
-        // const latitude = parseFloat(parseFloat(this.props.latitude).toString());
-        // const longitude = parseFloat(parseFloat(this.props.longitude).toString());
+        // const latitude = parseFloat(this.props.latitude);
+        // const longitude = parseFloat(this.props.longitude);
 
         const latitude =  52.474874;
         const longitude = -1.881274;
-        // 52.474874
+
         const streetViewPanoramaOptions = {
             position: { lat: latitude, lng: longitude },
             pov: { heading: 100, pitch: 0 },
