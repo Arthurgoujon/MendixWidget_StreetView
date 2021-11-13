@@ -1,7 +1,7 @@
 import { Component, createElement } from "react";
 import ReactStreetview from 'react-streetview';
 
-const googleMapsApiKey = 'AIzaSyD4BXZerACfMj8nKD9x3gOq5cibevb_4PU';
+const googleMapsApiKey = 'API KEY'; //this key is disabled
 
 export class View extends Component {
     render() {
@@ -16,7 +16,7 @@ export class View extends Component {
             position: { lat: latitude, lng: longitude },
             pov: { heading: 100, pitch: 0 },
             zoom: 1
-        };
+        };g
 
         return (
             <div style={{
