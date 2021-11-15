@@ -16,7 +16,7 @@ export class View extends Component {
             position: { lat: latitude, lng: longitude },
             pov: { heading: 100, pitch: 0 },
             zoom: 1
-        };g
+        };
 
         return (
             <div style={{
