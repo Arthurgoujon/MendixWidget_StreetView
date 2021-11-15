@@ -1,8 +1,7 @@
 import { Component, createElement } from "react";
 import ReactStreetview from 'react-streetview';
 
-const googleMapsApiKey = 'API KEY'; //this key is disabled
-
+const googleMapsApiKey = 'API KEY'; 
 export class View extends Component {
     render() {
 
